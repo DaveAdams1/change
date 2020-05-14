@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: My mkdocs template
+nav:
+    - Home: index.md
+    - About: about.md
+theme: gitbook
