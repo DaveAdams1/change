@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>Change Management - Dave Adams</title>
+<title>CMDB - Dave Adams</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Various sets of documentation">
 <meta name="generator" content="mkdocs-1.1, mkdocs-gitbook-1.0.7">
-
+<meta name="author" content="Dave Adams">
 <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
 <meta name="HandheldFriendly" content="true"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -32,10 +32,26 @@
 <li class="divider"></li>
 <li class="chapter" data-path="">
 <a href="../..">Home</a>
-<li class="chapter" data-path="about/">
-<a href="../../about/">About</a>
-<li class="chapter active" data-path="CMDB/CMS/">
-<a href="./">Change Management</a>
+<li class="header">About</li>
+
+<li>
+<a href="../../about/about/" class="">About</a>
+</li>
+
+<li class="header">Change Management</li>
+
+<li>
+<a href="../ChangeManagement/" class="">Change Management Overview</a>
+</li>
+
+<li>
+<a href="../cms/" class="">CMDB and CMS</a>
+</li>
+
+<li>
+<a href="./" class="active">CMDB</a>
+</li>
+
 <li class="divider"></li>
 
 
@@ -74,10 +90,19 @@ Theme by GitBook
 
 
 
-<h1 id="what-is-cms">What is CMS?</h1>
-<p>Configuration Management System (CMS) is a set of tools and databases that are used to manage the configuration data of an IT Service Provider. The CMS also includes information about Incidents, Problems, Known Errors, Changes and Releases; and may contain data about employees, suppliers, locations, business units, customers and users. The CMS includes tools for collecting, storing, managing, updating, and presenting data about all configuration items and their relationships. The CMS is maintained by Configuration Management process and is used by all IT Service Management (ITSM) Processes.</p>
-<p>Configuration Management Database (CMDB), CMS, and ITSM are definitions introduced by the IT Information Library (ITIL), which is a body of best practices for IT. ITIL was first developed in 1989 by the UK’s Office of Government Commerce (OGC) and is currently in version 3. ITIL can be generally thought of as a loose set of guidelines for managing and operating IT. ITIL v3’s model emphasizes services and processes, and the interactions and transitions between them. Service operations are the set of interacting processes that culminate in the provision and availability of a service. Services may include a composite of fundamental processes as well as other services. ITSM is the set of processes that manage service operations. For example, the maintenance, update, and repair of service components.</p>
-<p><img alt="image" src="../cms_foundation.png" /></p>
+<h1 id="configuration-management-system-cms">Configuration Management System (CMS)</h1>
+<h2 id="is-cmdb-still-relevant-in-these-cloud-hybrid-days">Is CMDB still relevant in these Cloud / Hybrid days?</h2>
+<p>The simple answer is yes, because...</p>
+<p>Although a lot has changed over the last ten years, with the  rapid uptake of compute, database, storage and applications being provisioned in the cloud through highly automated frameworks, and the fact these resources can be stood up and stood down faster than you can raise a change request, you may be forgiven for ask why.</p>
+<ul>
+<li>A significant number of enterprise CMDB's are a running joke, comprised of not one source of truth, but many "definitive and accurate", yet siloed and fiercely guarded by department heads playing internal politics.</li>
+<li>
+<p>More and more IT budget and resources get wasted on yet another discovery tool which kills the network and gives conflicting results with the last 3!</p>
+</li>
+<li>
+<p>ITIL and Agile / DevOps don't mix, in fact the contradict each other</p>
+</li>
+</ul>
 
 
 </section>
